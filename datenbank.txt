@@ -1,0 +1,53 @@
+Datenbanken
+
+SQL-
+Relationale Datenbanken
+
+Gebunden an ein Schema
+
+Belieber relationale (SQL) -
+IBM DBS
+Oracle Databae
+MySQL
+Microsoft SQL Server (MSSQL)
+PostgreSQL
+
+NoSQL
+Nicht Relationale Datenbanken
+
+Kann freigedanklich erstellt werden nicht gebunden an ein Schema
+
+Nicht Relational Datenkbanek
+Apache Cassandra - Wide Colum Store
+Redis - Key-Value Store
+
+MongoDB - DOument Store (Garbage In, Gabage Out = GIGO)
+
+express-validator
+
+Frontend / Browser / Mobile App <----> Api + Webserver <----> Datenbank (NoSQL) (Not-Only-SQL)
+
+
+MongoDB ist ein plattformübergreifende, dokumentonoriretine Datenbank, die hohe leistung, hohoe Verfügbarkeit und einfache Skalierbarkeit bietet. MongoDB arbeitet nach dem Konzept von Sammlung und Dokument.
+Atomaretransaktion - Guthaben Transaktion mit 100% klappen ansonsten Zurückgestzt
+
+Datenbanken --> Collections --> Documents
+
+MongoDB - Syntax
+
+.insertOne(document)
+insertMany([ document1, document2, document3, ])
+
+.find(query, presentation)
+$or, $and, $gt, $gte, $lt, $lte, $regex
+.count()
+.sort(criteria)
+
+.findOne(query)
+
+.updateOne(query, updateInfo)
+.deleteOne(query)
+.deleteMany(query)
+
+query aka filter
+
